@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: 'Open sans', sans-serif;
+}
+.titulo{ 
+    color: rgb(170, 9, 245);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+/* Juegos pc-*/
+li{
+    text-align: left;
+    color: dodgerblue;
+}
+span{
+    color: green;
+    font-size: 20px;
+}
+.categoria-pc{
+    width: 100%;
+    height: 1300px;
+}
+
+.pc{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pc .cuadrados{
+    width: 330px;
+    height: 1100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 3458, 0.5);
+    margin: 20px;
+    text-align: center;
+}
+
+.pc .cuadrados img{
+    width: 330px;
+    height: 220px;
+}
+.pc .cuadrados h4{
+    font-size: 20px;
+    color: rgb(250, 31, 2);
+}
+.pc .cuadrados p{
+    padding: 10px;
+    font-size: 16px;
+}
+
+

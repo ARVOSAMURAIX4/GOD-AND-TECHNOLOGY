@@ -1,0 +1,26 @@
+/* Estilo para el fondo de la Pagina Web  */
+	body{
+		font-family:"Arial";
+		font-size: 12 px;
+	}
+/* Estilo para el Formulario */
+#formulario{
+	border: solid 2px #b7ddf2;
+	background: #b7ddf2;
+	margin: 0 auto;
+	width: 400px;
+	padding: 10px;
+}
+/* Estilo para el Titulo */
+h1{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+/* Estilo para el Texto y su Linea*/
+#linea{
+	color: #666666;
+	margin-bottom: 5px;
+	border-bottom: solid 1px #FFF;
+	padding-bottom: 5px;
+}
